@@ -11,7 +11,7 @@ using namespace std;
 
 int main() {
 	int x = 5;
-	cout << "!!!Hello World!!!" << x << endl; // prints !!!Hello World!!!
-	cout << "test" << endl;
+	cout << "1" << x << endl; // prints !!!Hello World!!!
+	cout << "2" << endl;
 	return 0;
 }
