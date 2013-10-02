@@ -10,7 +10,10 @@
 using namespace std;
 
 int main() {
-	cout << "1" << endl;
-	cout << "2" << endl;
+	int x,y;
+	cin >> x;
+	cin >> y;
+	cout << x << endl;
+	cout << y << endl;
 	return 0;
 }
