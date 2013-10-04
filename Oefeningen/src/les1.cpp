@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int les1() {
 	while (true) {
 		double x, y;
 		cin >> x;
