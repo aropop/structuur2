@@ -27,7 +27,7 @@ void g() {
 	int a, b;
 	std::cout << std::hex << &a << std::endl;
 	std::cout << std::hex << &b << std::endl;
-	int d = f();
+	/*int d = f();*/
 }
 
 //vraag 4
@@ -53,18 +53,18 @@ int ggd(int a, int b) {
 
 //vraag 7
 void read_from_file(int how_many) {
-	std::ifstream file("text.txt");
+	std::ifstream file("src/text.txt");
 	std::string str;
 	while (how_many > 0) {
 		file >> str;
-		std::cout << "Lengte: " << str.size() << std::endl;
+		std::cout << "Lengte: " << str.size() << " Woord: " << str  << std::endl;
 		how_many = how_many - 1;
 	}
 	file.close();
 
 }
 
-int main() {
+int les2() {
 	//vraag 1
 	double avogadro;
 	avogadro = 6.02214179e23;

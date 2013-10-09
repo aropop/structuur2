@@ -9,8 +9,9 @@
 
 #include "fac.h"
 
+
 long fac(int n){
-	int res = 1;
+	long res = 1;
 	while (n > 0){
 		res = res * n;
 		n = n - 1;
