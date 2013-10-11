@@ -51,7 +51,7 @@ void print_dubbel_uit() {
 	}
 }
 
-int main() {
+int les3() {
 
 	std::cout << fib(98) << std::endl;
 	//print_tafel();
