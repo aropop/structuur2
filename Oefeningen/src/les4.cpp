@@ -19,7 +19,7 @@ void splits_string(std::string str){
 	std::cout << ret[0] << ret[1] <<std::endl;
 }
 
-int main(int argc, char *argv[]){
+int les4(int argc, char *argv[]){
 	std::cout << "ProgrammaNaam :'" << argv[0] << "'" << std::endl;
 	for(int i = 1; i < argc; ++i){
 		std::cout << "Argument nr: " << i << " is '" << argv[i] << "'" << std::endl;
