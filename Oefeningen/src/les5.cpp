@@ -64,6 +64,14 @@ void scale(Point p, double factor) {
 	p.y = p.y * factor;
 }
 
+//Oefening 5
+//vector3d = 3 doubles = 8*3= 24
+//1 int = 4
+//1 char = 1
+//3 vectord3d = 3 * 24= 72
+// 1 int = 4
+//totaal 81 bytes
+
 int main(int argc, char *args[]) {
 
 	Point p(1, 1);
@@ -79,6 +87,9 @@ int main(int argc, char *args[]) {
 	std::cout << p3.x << " " << p3.y << std::endl;
 	std::cout << sizeof(p3) << std::endl; //size of 2 doubles
 	std::cout << p << std::endl;
+
+	char i;
+	std::cout << sizeof(i)  << std::endl;
 
 	return 0;
 }
