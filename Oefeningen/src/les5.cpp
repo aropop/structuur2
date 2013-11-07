@@ -72,7 +72,7 @@ void scale(Point p, double factor) {
 // 1 int = 4
 //totaal 81 bytes
 
-int main(int argc, char *args[]) {
+int les5(int argc, char *args[]) {
 
 	Point p(1, 1);
 	Point p2(2, 3);
