@@ -160,7 +160,7 @@ private:
 	struct stat * buffer_;
 };
 
-int main(int argc, char *args[]) {
+int les6(int argc, char *args[]) {
 	//read_array();
 //	Ulist l = Ulist(3);
 //	l.add(5);

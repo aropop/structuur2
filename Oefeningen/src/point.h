@@ -10,7 +10,7 @@
 
 class Point{
 public:
-	double const static pi = 3.141592;
+	 const double pi = 3.141592;
 	double x;
 	double y;
 
